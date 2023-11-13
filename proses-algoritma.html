@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Proses Algoritma - BELAJAR</title>
+    <meta name="description" content="Proses Algoritma, , , , , , , 0, , , , , , 0, proses-algoritma, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Proses Algoritma - BELAJAR" />
+    <meta property="og:description" content="Proses Algoritma, , , , , , , 0, , , , , , 0, proses-algoritma, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Proses Algoritma - BELAJAR" />
+    <meta name="twitter:description" content="Proses Algoritma, , , , , , , 0, , , , , , 0, proses-algoritma, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://geniuspendidikan.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://geniuspendidikan.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://geniuspendidikan.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://geniuspendidikan.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://geniuspendidikan.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://geniuspendidikan.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://geniuspendidikan.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://geniuspendidikan.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://geniuspendidikan.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://geniuspendidikan.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Proses Algoritma</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">anjaymabar999</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Proses+Algoritma" alt="Proses Algoritma">
+                    </div>
+                    <p></p>
+                    <p>Dalam algoritma, jika waktu yang diperlukan untuk mengakses proses lebih sedikit dibandingkan dengan yang lain, algoritma tersebut bisa dikatakan.....​</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#dalam-algoritma-jika-waktu-yang-diperlukan-untuk-mengakses-proses-lebih-sedikit-dibandingkan-dengan-yang-lain-algoritma-tersebut-bisa-dikatakan-%e2%80%8b">1.
+                                            Dalam algoritma, jika waktu yang diperlukan untuk mengakses proses lebih sedikit dibandingkan dengan yang lain, algoritma tersebut bisa dikatakan.....​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-klasifikasi-dari-proses-algoritma">2.
+                                            sebutkan klasifikasi dari proses algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-klarifikasi-dari-proses-algoritma">3.
+                                            Sebutkan klarifikasi dari proses algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#langkah-proses-algoritma-diawali-dengan-berapa-proses-sebutkan-dan-jelaskan%e2%80%8b">4.
+                                            Langkah proses Algoritma diawali dengan berapa proses ? sebutkan dan jelaskan​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#terangkan-pengertian-proses-pencarian-dalam-algoritma">5.
+                                            Terangkan pengertian proses pencarian dalam algoritma!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-proses-algoritma-mengganti-jam-dinding">6.
+                                            Buatlah proses algoritma mengganti jam dinding</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#contoh-algoritma-sederhana-dari-proses-pengiriman-surat">7.
+                                            contoh algoritma sederhana dari proses pengiriman surat?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#proses-algoritma-dalam-flowchart-dapat-dilambangkan-dengan%e2%80%8b">8.
+                                            proses algoritma dalam flowchart dapat dilambangkan dengan?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#proses-algoritma-dikategorikan-sebagai-concurrent-process-jika">9.
+                                            Proses algoritma dikategorikan sebagai concurrent process jika.</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#jelaskan-perbedaan-algoritma-pengecekan-spelling-dan-freshness-serta-peran-algoritma-tersebut-dalam-proses-pencarian-informasi-%e2%80%8b">10.
+                                            Jelaskan perbedaan algoritma pengecekan spelling dan freshness, serta peran algoritma tersebut dalam proses pencarian informasi.​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#dalam-ilmu-komputer-algoritma-adalah-urutan-langkah-atau-proses-dalam-suatu">11.
+                                            Dalam Ilmu komputer, Algoritma adalah urutan langkah atau proses dalam suatu...</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#secara-umum-proses-algoritma-dikelompokkan-menjadi-tiga-jenis-proses-algoritma-dimana-pelaksanaannya-instruksinya-berdasarkan-kondisi-yang-terjadi-jika-kondinya-terpenuhi-instruksi-akan-dijalankan">12.
+                                            Secara umum proses algoritma dikelompokkan menjadi tiga jenis. proses algoritma dimana pelaksanaannya instruksinya berdasarkan kondisi yang terjadi. jika kondinya terpenuhi, instruksi akan dijalankan. jika tidak terpenuhi maka akan melaksanakan instruksi yang lainnya. proses tersebut termasuk proses ….?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-tiga-alur-proses-dalam-algoritma%e2%80%8b">13.
+                                            Sebutkan tiga alur proses dalam algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-algoritma-proses-pendaftaran-sekolh">14.
+                                            Buatlah algoritma proses pendaftaran sekolh</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#pada-diagram-alir-algoritma-simbol-apa-yang-digunakan-untuk-merepresentasikan-proses-atau-langkah-dalam-algoritma">15.
+                                            Pada diagram alir algoritma, simbol apa yang digunakan untuk merepresentasikan proses atau langkah dalam algoritma?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-algoritma-untuk-proses-pelaksanaan-vaksinasi-bersama">16.
+                                            Buatlah algoritma untuk proses pelaksanaan vaksinasi bersama</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatla-algoritma-proses-mendapatkan-pekerjaan">17.
+                                            Buatla algoritma proses mendapatkan pekerjaan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-dan-jelaskan-kategori-proses-algoritma">18.
+                                            Sebutkan dan jelaskan kategori proses algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#berikanlah-contoh-kategori-hasil-dari-proses-algoritma%e2%80%8b">19.
+                                            Berikanlah contoh kategori hasil dari proses algoritma!​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-salah-satu-hal-yang-perlu-di-pertimbangkan-dalam-membuatalgoritma-adalah-efisiensi-maksuddari-efisiensi-adalah-a-algoritma-memberikan-hasildalam-waktu-yang-cepat-dantidak-menghabiskan-banyakme">20.
+                                            1.Salah satu hal yang perlu di-pertimbangkan dalam membuatalgoritma adalah efisiensi. Maksuddari efisiensi adalah ....A. Algoritma memberikan hasildalam waktu yang cepat dantidak menghabiskan banyakmemori.B. Algoritma memberikan hasilyang sedekat mungkin dengannilaiyang sebenarnya.C. Algoritma dibutuhkan secaramutlak untuk menyelesaikanmasalah.3.D. Tidak mengulang-ulang prosesdalam algoritmaE. Tidak ditentukan jumlah prosesalgoritmaAnalisis:​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-algoritma-proses-menuju-sekolah%e2%80%8b">21.
+                                            buatlah algoritma proses menuju sekolah​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#variabel-yang-digunakan-dalam-proses-algoritma-dituliskan-pada-bagian">22.
+                                            Variabel yang digunakan dalam proses algoritma dituliskan pada bagian.....</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-langkah-langkah-dalam-proses-desain-algoritma%e2%80%8b">23.
+                                            Sebutkan langkah-langkah dalam proses desain algoritma?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-proses-mendapatkan-pekerjaan">24.
+                                            Algoritma proses mendapatkan pekerjaan</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#buatlah-algoritma-untuk-proses-pelaksanaan-vaksinasi-bersama%e2%80%8b">25.
+                                            buatlah algoritma untuk proses pelaksanaan vaksinasi bersama​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-penjadwalan-yang-mendahulukan-proses-yang-memiliki-prioritas-tertinggi-adalah">26.
+                                            algoritma penjadwalan yang mendahulukan proses yang memiliki prioritas tertinggi adalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apakah-proses-mencuci-pakaian-termasuk-algoritma%e2%80%8b">27.
+                                            apakah "proses mencuci pakaian" termasuk algoritma?​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-dari-proses-memasak-air-%e2%80%8b">28.
+                                            Algoritma dari proses Memasak air ​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-salah-satu-hal-yang-perlu-di-pertimbangkan-dalam-membuatalgoritma-adalah-efisiensi-maksuddari-efisiensi-adalah-a-algoritma-memberikan-hasildalam-waktu-yang-cepat-dantidak-menghabiskan-banyakme">29.
+                                            1.Salah satu hal yang perlu di-pertimbangkan dalam membuatalgoritma adalah efisiensi. Maksuddari efisiensi adalah ....A. Algoritma memberikan hasildalam waktu yang cepat dantidak menghabiskan banyakmemori.B. Algoritma memberikan hasilyang sedekat mungkin dengannilai yang sebenarnya.C. Algoritma dibutuhkan secaramutlak untuk menyelesaikanmasalah.D. Tidak mengulang-ulang proses 3.dalam algoritma.E. Tidak ditentukan jumlah prosesalgoritmaAnalisis: ....​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#apa-yang-terjadi-jika-proses-mencuci-urutannya-terbalik-algoritma%e2%80%8b">30.
+                                            Apa yang terjadi jika proses mencuci urutannya terbalik algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#diagram-yang-menggambarkan-proses-dalam-algoritma-disebut">31.
+                                            diagram yang menggambarkan proses dalam algoritma disebut ...</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#algoritma-yang-prosesnya-sesuai-urutan-waktu-di-mana-setiap-proses-hanya-sekali-di-kerjakan-di-katakan-memiliki-struktur">32.
+                                            Algoritma yang prosesnya sesuai urutan waktu di mana setiap proses hanya sekali di kerjakan di katakan memiliki struktur?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#secara-umum-proses-algoritma-dikelompokkan-menjadi-tiga-jenis-proses-algoritma-dimana-pelaksanaan-instruksinya-berdasarkan-kondisi-yang-terjadi-jika-kondisinya-terpenuhi-instruksi-akan-dijalankan">33.
+                                            Secara umum proses algoritma dikelompokkan menjadi tiga jenis. Proses algoritma dimana pelaksanaan instruksinya berdasarkan kondisi yang terjadi. Jika kondisinya terpenuhi, instruksi akan dijalankan. Jika tidak terpenuhi maka akan melaksanakan instruksi yang lainnya. Proses tersebut termasuk proses …</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#variable-yang-digunakan-dalam-proses-algoritma-dituliskan-pada-bagian">34.
+                                            Variable yang digunakan dalam proses algoritma dituliskan pada bagian...</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-keluaran-dari-algoritma-diatasjelaskan-dari-mana-prosesnya">35.
+                                            Tuliskan keluaran dari algoritma diatas?jelaskan dari mana prosesnya!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sebutkan-klasifikasi-dri-proses-algoritma">36.
+                                            Sebutkan klasifikasi dri proses algoritma</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#salah-satu-yang-perlu-dipertimbangkan-dalam-membuat-algoritma-adalah-efisiensi-maksud-dari-efisiensi-adalah-a-algoritma-memberikan-hasil-dalam-waktu-yang-mungkin-dan-tidak-menghabiskan-banyak-memor">37.
+                                            salah satu yang perlu dipertimbangkan dalam membuat algoritma adalah efisiensi.Maksud dari efisiensi adalah...a. algoritma memberikan hasil dalam waktu yang mungkin dan tidak menghabiskan banyak memorib. algoritma memberikan hasil yang sedekat mungkin dalam nilai yang sebenarnyac. algoritma dibutuhkan secara mulak untuk menyelesaikan masalahd. tidak mengulang ulang proses dalam algoritmae. tidak ditentukan jumlah proses algoritma.analisis:.....​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tuliskan-kategori-proses-algoritma%e2%80%8b">38.
+                                            tuliskan kategori proses algoritma​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#proses-dari-masalah-hingga-terbentuk-suatu-algoritma-disebut-tahap">39.
+                                            Proses dari masalah hingga terbentuk suatu algoritma disebut tahap ?</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bentuk-algoritma-sederhana-dari-proses-pengiriman-surat">40.
+                                            bentuk algoritma sederhana dari proses pengiriman surat?</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="dalam-algoritma-jika-waktu-yang-diperlukan-untuk-mengakses-proses-lebih-sedikit-dibandingkan-dengan-yang-lain-algoritma-tersebut-bisa-dikatakan-%e2%80%8b">
+                            1. Dalam algoritma, jika waktu yang diperlukan untuk mengakses proses lebih sedikit dibandingkan dengan yang lain, algoritma tersebut bisa dikatakan.....​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>lebih efisien</p><p><strong>Penjelasan:</strong></p><p>semoga membantu</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-klasifikasi-dari-proses-algoritma">
+                            2. sebutkan klasifikasi dari proses algoritma</h2><br />
+                        1. Input <br />2. Proses <br />3. Output <br />
+                                            <h2 class="ez-toc-section" id="sebutkan-klarifikasi-dari-proses-algoritma">
+                            3. Sebutkan klarifikasi dari proses algoritma</h2><br />
+                        1. Rekursi atau iterative<br />2. Logical<br />3. Serial, parallel, atau terdistribusi<br />4. Deterministik atau non-deterministik<br />5. Tepat atau perkiraan<br />6. Algoritma quantum<br /><br />
+                                            <h2 class="ez-toc-section" id="langkah-proses-algoritma-diawali-dengan-berapa-proses-sebutkan-dan-jelaskan%e2%80%8b">
+                            4. Langkah proses Algoritma diawali dengan berapa proses ? sebutkan dan jelaskan​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Cara deskripsi, yaitu penulisan algoritma menggunakan bahasa deskripsi. Cara ini terdiri dari tiga bagian yaitu judul, deklarasi, dan deskripsi. Bagan alir atau flowchart merupakan penulisan algoritma berdasarkan notasi grafis dalam bentuk bagan urutan</p><p></p><p></p><p></p><p></p><p>Jawaban:</p><p>Tiga Cara Penulisan Algoritma</p><p> Ada Tiga Cara Dalam Penulisan Algoritma :</p><p>1. Deskriptif </p><p>Algoritma bertipe Deskriptif maksudnya adalah algoritma yang ditulis dengan bahasa manusia sehari-hari (misalnya Bahasa Indonesia atau Bahasa Inggris). Setiap Langkahnya ditulis dalam satu kalimat atau lebih. Tidak ada aturan untuk penulisan algoritma bertipe Deskriptif ini. Semua kalimat ditulis dengan sistematis, jelas, terbatas dan berurutan. </p><p>Karena tidak ada aturtasi bahan baku dalam menuliskan algoritma dengan notasi deskriptif maka tiap orang dapat membuat aturan penulisan dan notasi algoritma sendiri. Hal ini dapat dimengerti karena teks algoritma tidak sma dengan teks program. Program adalah implementasi algoritma dalam notasi bahasa pemrograman tertentu. Namun, agar notasi algoritma mudah ditranslasi kedalam notasi bahasa pemrograman, maka sebaiknya notasi algoritma tersebut berkoresponden dengan notasi bahasa pemrograman pada umumnya. Kata kerja adalah jenis kata yang biasa digunakan dalam penulisan bahasa deskriptif, contohnya, tulis, baca, hitung, tampilkan, ulangi, bandingkan; dan lain-lain.</p><p>Notasi jenis ini cocok untuk algoritma yang pendek. Tapi untuk masalah algoritma yang panjang notasi ini kurang efektif. Cara penulisan algoritma dengan notasi bahasa deskriptif paling mudah dibuat, namun demikian cara ini paling sulit untuk diterjemahakan kedalam bahasa pemrograman. </p><p>Pada dasarnya teks algoritma dengan bahasa deskriptif  disusun oleh tiga bagian utama, yaitu :</p><p>1. Bagian Judul (header)</p><p>2. Bagian Deklarasi (kamus)</p><p>3. Bagian Deskripsi</p><p></p><p>2. Flowchart (diagram alur)</p><p>Algoritma bertipe Flow Chart adalah algoritma yang ditulis dalam bentuk diagram-diagram dengan anak panah sebagai penunjuk urutan langkah algoritmanya. Didalam Diagram terdapat Simbol-simbol yang mempunyai makna atau arti tersendiri. </p><p>Flowchart merupakan  gambar atau bagan yang memperlihatkan urutan atau langkah-langkah dari suatu program dan hubungan antar proses beserta pernyataannya. Gambaran ini dinyatakan dengan simbol. Dengan demikian simbol menggambarkan proses tertentu. Sedangkan antara proses digambarkan dengan garis penghubung. dengan menggunakan flowchart akan memudahakan kita untuk melakukan pengecekan bagian -bagian yang terlupakan dalam analisis masalah. Disamping itu flowchart juga berguana sebagai fasilitas untuk berkomunikasi antara pemrogram yang bekerja dalam tim suatu proyek. Flowchart menolong analis dan programer untuk memecahkan masalah kedalam segmen-segmen yang lebih kecil dan menolong dalam menganalisis alternatif-alternatif lain dalam pengoperasian. </p><p> </p><p>Dalam pembuatan flowchart program tidak ada rumus atau patokan yang bersifat mutlak. Karena flowchart merupakan gambaran hasil pemikiran dalam menganalisis suatu maslah yang nantinya akan diubah menjadi program komputer. Sehingga flowchart yang dihasilkan dapat bevariasi antara satu pemrogram dengan yang lainnya. Namun demikian terdpat beberpa anjuran yang harus diperhatikan, yaitu :</p><p>Flowchart digambarkan disuatu halaman dimulai dari sisi atas kebawah dan dari sisi kiri ke kanan.</p><p>Aktivitas yang digambarkan harus didefinisikan dengan menggunkan bahasa dan simbol yang tepat dan definisi ini harus dapat dimengerti oleh pembacanya.</p><p>Kapan aktivitas dimulai dan berakhir harus ditentukan secara jelas. Hanya terdapat satu titik awal dan satu titik akhir.</p><p>Setiap langkah dari aktivitas harus diuraikan dengan menggunakan deskripsi kata kerja. Misalnya MENGHITUNG NILAI RATA-RATA.</p><p>Setiap langkah dari aktivitas harus berada pada urutan yang benar.</p><p>Lingkup dan range dari aktivitas yang sedang digambarkan harus ditelusuri dengan hati-hati. </p><p>Gunakan simbol-simbol flowchart yang standard.</p><p></p><p>3. Pseudocode</p><p>Pseudocode adalah cara penulisan algoritma yang menyerupai bahasa pemrograman tingkat tinggi. Pseudocode menggunakan bahasa yang hampir menyerupai bahasa pemrograman. Biasanya pseudo-code menggunakan bahasa yang mudah dipahami secara universal dan juga lebih ringkas daripada algoritma. Pseudocode berisi deskripsi dari algoritma pemrograman komputer yang menggunakan struktur sederhana dari beberapa bahasa pemrograman tetapi bahasa tersebut hanya ditujukan agar dapat dibaca manusia. Sehingga Pseudocode tidak dapat dipahami oleh komputer. Supaya notasi Pseudocode bisa dipahami oleh komputer maka harus diterjemahkan terlebih dahulu menjadi sintaks bahasa pemrograman komputer tertentu.</p><p>semoga membantu ! ;)</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="terangkan-pengertian-proses-pencarian-dalam-algoritma">
+                            5. Terangkan pengertian proses pencarian dalam algoritma!</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>Dalam konteks algoritma, proses pencarian merujuk pada langkah-langkah yang diambil untuk menemukan elemen tertentu dalam kumpulan data atau himpunan. Tujuan dari proses pencarian ini adalah untuk menemukan posisi atau informasi yang terkait dengan elemen yang dicari dalam kumpulan data.</p><p></p><p>Tergantung pada jenis algoritma yang digunakan, ada beberapa metode pencarian yang umum digunakan:</p><p></p><p>1. **Pencarian Linier (Sequential Search):** Ini adalah metode sederhana di mana elemen-elemen dalam kumpulan data diperiksa satu per satu secara berurutan hingga elemen yang dicari ditemukan. Ini cocok untuk kumpulan data kecil, tetapi tidak efisien untuk kumpulan data besar.</p><p></p><p>2. **Pencarian Binari (Binary Search):** Hanya berlaku untuk kumpulan data yang telah diurutkan. Kumpulan data dibagi menjadi dua bagian, dan elemen tengah diperiksa. Jika elemen tengah sama dengan elemen yang dicari, pencarian selesai. Jika tidak, pencarian dilanjutkan pada setengah yang sesuai sampai elemen ditemukan.</p><p></p><p>3. **Pencarian Hashing:** Ini melibatkan penggunaan fungsi hash untuk memetakan elemen ke dalam tabel hash. Ketika mencari elemen, algoritma akan mencari di indeks yang dihasilkan oleh fungsi hash. Ini efisien untuk pencarian cepat dalam kumpulan data besar, tetapi memerlukan manajemen tabel hash yang baik.</p><p></p><p>4. **Pencarian Interpolasi:** Ini bekerja pada kumpulan data terurut dengan nilai yang merata. Algoritma ini menghitung perkiraan lokasi elemen berdasarkan nilai dan proporsi dalam kumpulan data. Ini mempercepat pencarian dalam kasus-kasus tertentu.</p><p></p><p>Pemilihan metode pencarian tergantung pada sifat kumpulan data, ukurannya, dan apakah data tersebut sudah diurutkan atau tidak. Setiap metode memiliki kompleksitas dan efisiensi yang berbeda, dan pemahaman tentang masing-masing metode dapat membantu dalam memilih yang tepat untuk tugas pencarian yang sedang dihadapi.</p><p><strong>Jawaban:</strong></p><p>Pengertian proses pencarian dalam algoritma adalah proses untuk mencari data atau informasi tertentu yang disimpan dalam sebuah struktur data, seperti array, list, tree, atau database. Proses pencarian dilakukan dengan menggunakan algoritma pencarian, yaitu serangkaian langkah atau instruksi yang menentukan cara mencari data yang diinginkan. Tujuan dari proses pencarian adalah untuk menemukan posisi atau keberadaan data yang dicari dalam struktur data dengan cara yang efisien dan efektif.</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-proses-algoritma-mengganti-jam-dinding">
+                            6. Buatlah proses algoritma mengganti jam dinding</h2><br />
+                        1.Mulai.<br />2.Siapkan jam dinding lain.<br />3.Atur jam sesuai jam saat ini.<br />4.Ambil jam dinding yang mau diganti.<br />5.Pasang jam dinding yang sudah diatur.<br />6.Selesai.<br />
+                                            <h2 class="ez-toc-section" id="contoh-algoritma-sederhana-dari-proses-pengiriman-surat">
+                            7. contoh algoritma sederhana dari proses pengiriman surat?</h2><br />
+                        Siapkan surat<br />Apakah sudah ditulis isinya?<br />Jika belum isi dahulu<br />Ambil amplop, lalu masukkan suratnha<br />Apakah amplopnya sudah di tulis alamat?<br />Jika sudah, tempelkan prangko.<br />Apakah prangkonya ada?<br />Jika belum? Beli lah di kantor pos<br />
+                                            <h2 class="ez-toc-section" id="proses-algoritma-dalam-flowchart-dapat-dilambangkan-dengan%e2%80%8b">
+                            8. proses algoritma dalam flowchart dapat dilambangkan dengan?​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Flowchart Sistem (System Flowchart)</p><p></p><p>Flowchar yang menggambarkan urutan kerja di dalam keseluruhan sistem dan menjelaskan urutan dari prosedur-prosedur di dalam sistem tersebut. Flowchart sistem merupakan dekripsi grafis dari urutan prosedur-prosedur yang disusun sehingga membentuk sebuah sistem yang lengkap.  </p><br />
+                                            <h2 class="ez-toc-section" id="proses-algoritma-dikategorikan-sebagai-concurrent-process-jika">
+                            9. Proses algoritma dikategorikan sebagai concurrent process jika.</h2><br />
+                        <p>Proses algoritma dikategorikan sebagai concurrent process jika:</p><p></p><p>Proses tersebut dapat dijalankan secara bersamaan dengan proses lain, atau paralel.</p><p></p><p>Proses tersebut tidak tergantung pada proses lain untuk menyelesaikan tugasnya.</p><p></p><p>Proses tersebut memiliki akses ke sumber daya yang sama secara bersamaan dengan proses lain.</p><p></p><p>Proses tersebut dapat dijalankan secara terpisah dari proses lain, tetapi masih tergantung pada proses lain untuk menyelesaikan tugasnya.</p><p></p><p>Contoh proses algoritma yang termasuk dalam concurrent process adalah proses pemrosesan multitasking pada komputer, dimana beberapa proses dapat dijalankan secara bersamaan untuk meningkatkan efisiensi dan kecepatan sistem.</p><br />
+                                            <h2 class="ez-toc-section" id="jelaskan-perbedaan-algoritma-pengecekan-spelling-dan-freshness-serta-peran-algoritma-tersebut-dalam-proses-pencarian-informasi-%e2%80%8b">
+                            10. Jelaskan perbedaan algoritma pengecekan spelling dan freshness, serta peran algoritma tersebut dalam proses pencarian informasi.​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>algoritma pengecekan spelling adalah algoritma yang berfungsi untuk menerjemahkan kesalahan ejaan, sedangkan algoritma fressnes berfungsi jika pengguna memasukkan topik yg sedang trending topik. peran algoritma menentukan informasi seperti apa yg dicari oleh pengguna dan apa yg mendasari pencarian tersebut.</p><p><strong>Penjelasan:</strong></p><p>itu jawaban ku, maaf klo salah ¯\_(ツ)_/¯</p><br />
+                                            <h2 class="ez-toc-section" id="dalam-ilmu-komputer-algoritma-adalah-urutan-langkah-atau-proses-dalam-suatu">
+                            11. Dalam Ilmu komputer, Algoritma adalah urutan langkah atau proses dalam suatu...</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>algoritma adalah urutan atau langkah-langkah untuk penghitungan atau untuk menyelesaikan suatu masalah yang ditulis secara berurutan. Sehingga, algoritma pemrograman adalah urutan atau langkah-langkah untuk menyelesaikan masalah pemrograman komputer</p><p><strong>Penjelasan:</strong></p><p>semoga membantu:) jadikan jawaban tercerdas yaa. thanks:')</p><br />
+                                            <h2 class="ez-toc-section" id="secara-umum-proses-algoritma-dikelompokkan-menjadi-tiga-jenis-proses-algoritma-dimana-pelaksanaannya-instruksinya-berdasarkan-kondisi-yang-terjadi-jika-kondinya-terpenuhi-instruksi-akan-dijalankan">
+                            12. Secara umum proses algoritma dikelompokkan menjadi tiga jenis. proses algoritma dimana pelaksanaannya instruksinya berdasarkan kondisi yang terjadi. jika kondinya terpenuhi, instruksi akan dijalankan. jika tidak terpenuhi maka akan melaksanakan instruksi yang lainnya. proses tersebut termasuk proses ….?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Proses tersebut termasuk proses pengambilan keputusan atau proses kondisional.</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-tiga-alur-proses-dalam-algoritma%e2%80%8b">
+                            13. Sebutkan tiga alur proses dalam algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. Sekuensial (runtunan),</p><p>2. Seleksi,</p><p>3. Perulangan.</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-algoritma-proses-pendaftaran-sekolh">
+                            14. Buatlah algoritma proses pendaftaran sekolh</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p><p>Selasa, 02 September 2014</p><p>ALGORITMA PENERIMAAN SISWA BARU</p><p></p><p></p><p></p><p></p><p></p><p>~ Algoritma untuk proses penerimaan siswa baru </p><p></p><p></p><p></p><p> </p><p></p><p></p><p></p><p>1.  Definisi Algoritma</p><p></p><p></p><p></p><p> </p><p></p><p></p><p></p><p>Algoritma adalah urutan langkah-langkah logis penyelesaian masalah yang disusun secara sistematis dan logis . Kata logis merupakan kata kunci dalam algoritma.</p><p></p><p></p><p></p><p>Langkah-langkah dalam algoritma harus logis dan harus dapat ditentukan bernilai</p><p></p><p></p><p></p><p>salah atau benar.</p><p></p><p></p><p></p><p>Dalam beberapa konteks, algoritma adalah spesifikasi urutan langkah untuk</p><p></p><p></p><p></p><p>melakukan pekerjaan tertentu. Pertimbangan dalam pemilihan algoritma adalah,</p><p></p><p></p><p></p><p>pertama, algoritma haruslah benar. Artinya algoritma akan memberikan keluaran</p><p></p><p></p><p></p><p>yang dikehendaki dari sejumlah masukan yang diberikan. Tidak peduli sebagus</p><p></p><p></p><p></p><p>apapun algoritma, kalau memberikan keluaran yang salah, pastilah algoritma tersebut bukanlah algoritma yang baik Pertimbangan kedua yang harus diperhatikan adalah kita harus mengetahui seberapa baik hasil yang dicapai oleh algoritma tersebut. Hal ini penting terutama pada algoritma untuk menyelesaikan masalah yang memerlukan aproksimasi hasil (hasil yang hanya berupa pendekatan). Algoritma yang baik harus mampu memberikan hasil yang sedekat mungkin dengan nilai yang sebenarnya.</p><p></p><p></p><p></p><p>Ketiga adalah efisiensi algoritma. Efisiensi algoritma dapat ditinjau dari 2 hal yaitu</p><p></p><p></p><p></p><p>efisiensi waktu dan memori. Meskipun algoritma memberikan keluaran yang benar</p><p></p><p></p><p></p><p>(paling mendekati), tetapi jika kita harus menunggu berjam-jam untuk mendapatkan keluarannya, algoritma tersebut biasanya tidak akan dipakai, setiap orang menginginkan keluaran yang cepat. Begitu juga dengan memori, semakin besar memori yang terpakai maka semakin buruklah algoritma tersebut.Dalam</p><p></p><p></p><p></p><p>kenyataannya, setiap orang bisa membuat algoritma yang berbeda untuk menyelesaikan suatu permasalahan, walaupun terjadi perbedaan dalam menyusun</p><p></p><p></p><p></p><p>algoritma, tentunya kita mengharapkan keluaran yang sama. Jika terjadi demikian,</p><p></p><p></p><p></p><p>carilah algoritma yang paling efisien dan cepat.</p><p></p><p></p><p></p><p> </p><p></p><p></p><p></p><p>2.  Algoritma</p><br />
+                                            <h2 class="ez-toc-section" id="pada-diagram-alir-algoritma-simbol-apa-yang-digunakan-untuk-merepresentasikan-proses-atau-langkah-dalam-algoritma">
+                            15. Pada diagram alir algoritma, simbol apa yang digunakan untuk merepresentasikan proses atau langkah dalam algoritma?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>semua simbol flowchart. Faktanya, diagram alur sederhana, yang dibangun hanya dengan blok persegi panjang dan garis alur, sudah dapat menyelesaikan sebagian besar pekerjaan.</p><p></p><p>Namun, jika Anda ingin mendapatkan teknis dan tepat, ada aturan dan standar yang telah ditetapkan</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-algoritma-untuk-proses-pelaksanaan-vaksinasi-bersama">
+                            16. Buatlah algoritma untuk proses pelaksanaan vaksinasi bersama</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>Algoritma </strong><strong>proses </strong><strong>pelaksanaan </strong><strong>vaksin </strong><strong>bersama</strong></p><p></p><p>Pendaftaran: Melakukan pengecekan data lewat peduli lindungi dan memberikan kertas kendali untuk diisi oleh calon vaksinasi.</p><p>Screening: Melakukan pemeriksaan kepada calon vaksinasi meliputi pemeriksaan tanda vital dan mengajukan pertanyaan yang sesuai dengan petunjuk teknis.</p><p>Vaksinasi: Bagi yang lulus screening bisa langsung di vaksinasi sesuai dosis dan petugas mengisi hasil screening dan vaksinasi di dalam kertas kendali.</p><p>Pencatatan: Petugas melakukan entry data sesuai kertas kendali dalam Pcare.</p><p>Observasi: Bagi yang sudah di vaksin masuk ke tempat observasi untuk mengetahui informasi lebih lanjut tentang efek samping dari vaksin dan petugas memberitahukan kontak dokter jika terjadi sesuatu setellah di vaksin.</p><p>Penyerahan kartu vaksin: Petugas menyerahkan sertifikat vaksin sebagai tanda bahwa sudah di vaksin</p><p>Setelah tahu langkah-langkahnya maka bisa dibuatkan bagan alurnya.</p><p></p><p><strong>pembahasan</strong></p><p></p><p>Algoritme adalah serangkaian langkah-langkah spesifik yang dapat diikuti untuk memecahkan masalah dengan komputer. Dalam matematika dan ilmu komputer, algoritme adalah prosedur langkah demi langkah untuk melakukan tugas.</p><p><strong>Penjelasan:</strong></p><p>maaf kalo salah</p><br />
+                                            <h2 class="ez-toc-section" id="buatla-algoritma-proses-mendapatkan-pekerjaan">
+                            17. Buatla algoritma proses mendapatkan pekerjaan</h2><br />
+                        <p></p><p>Jika diterima:</p><p>Mulai &gt; mencari lowongan pekerjaan &gt; melamar pekerjaan &gt; mendapatkan pekerjaan &gt; selesai</p><p></p><p>Jika tidak diterima</p><p>Mulai &gt; mencari lowongan pekerjaan &gt; melamar pekerjaan &gt; tidak diterima &gt;  mencari lowongan pekerjaan</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-dan-jelaskan-kategori-proses-algoritma">
+                            18. Sebutkan dan jelaskan kategori proses algoritma</h2><br />
+                        1) Input<br />2) Proses<br />3) Output<br />
+                                            <h2 class="ez-toc-section" id="berikanlah-contoh-kategori-hasil-dari-proses-algoritma%e2%80%8b">
+                            19. Berikanlah contoh kategori hasil dari proses algoritma!​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p><strong>Algoritma</strong><strong> adalah suatu upaya dengan urutan operasi yang disusun secara logis dan sistematis untuk menyelesaikan suatu masalah untuk menghasilkan suatu output tertentu.</strong></p><p><strong>I</strong><strong>baratkan komputer adalah otak kita. Tiap hari sejak kita bangun sampai mau tidur lagi akan ada banyak aktivitas yang dikerjakan.</strong></p><p><strong>Penjelasan:</strong></p><p><strong>SEMOGA </strong><strong>MEMBANTU</strong><strong>,</strong><strong>JADIKAN </strong><strong>JAWAB</strong><strong>A</strong><strong>N </strong><strong>TERCERDAS^</strong><strong>_</strong><strong>^</strong><strong>!</strong><strong>!</strong></p><p><strong>Jawaban:</strong></p><p>contoh kategoru hasil proses algoritma</p><p>1. menentukan bilangan ganjil atau genap</p><p>2. menghitung keliling dan luas lingkaran </p><p>3.menampilkan bilangan ganjil di antara 10 sampai 30</p><p><strong>Penjelasan:</strong></p><p>maaf kalo salah</p><br />
+                                            <h2 class="ez-toc-section" id="1-salah-satu-hal-yang-perlu-di-pertimbangkan-dalam-membuatalgoritma-adalah-efisiensi-maksuddari-efisiensi-adalah-a-algoritma-memberikan-hasildalam-waktu-yang-cepat-dantidak-menghabiskan-banyakme">
+                            20. 1.Salah satu hal yang perlu di-pertimbangkan dalam membuatalgoritma adalah efisiensi. Maksuddari efisiensi adalah ....A. Algoritma memberikan hasildalam waktu yang cepat dantidak menghabiskan banyakmemori.B. Algoritma memberikan hasilyang sedekat mungkin dengannilaiyang sebenarnya.C. Algoritma dibutuhkan secaramutlak untuk menyelesaikanmasalah.3.D. Tidak mengulang-ulang prosesdalam algoritmaE. Tidak ditentukan jumlah prosesalgoritmaAnalisis:​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>d.tidak mengulang ulang proses dalam algoritma (kalo gk salah)</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-algoritma-proses-menuju-sekolah%e2%80%8b">
+                            21. buatlah algoritma proses menuju sekolah​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Contoh algoritma berangkat ke sekolah</p><p></p><p>Bangun tidur</p><p>Berdoa</p><p>Mandi</p><p>Mengenakan seragam sekolah</p><p>Menyiapkan tas, buku, dan peralatan untuk bersekolah</p><p>Sarapan</p><p>Pamit kepada orang tua</p><p>Berangkat ke sekolah</p><p></p><p><strong>Penjelasan:</strong></p><p>Algoritma adalah serangkaian langkah yang disusun secara berurutan untuk melakukan suatu kegiatan atau perintah</p><br />
+                                            <h2 class="ez-toc-section" id="variabel-yang-digunakan-dalam-proses-algoritma-dituliskan-pada-bagian">
+                            22. Variabel yang digunakan dalam proses algoritma dituliskan pada bagian.....</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>huruf besar</p><p>huruf besar</p><p>huruf besar</p><br />
+                                            <h2 class="ez-toc-section" id="sebutkan-langkah-langkah-dalam-proses-desain-algoritma%e2%80%8b">
+                            23. Sebutkan langkah-langkah dalam proses desain algoritma?​</h2><br />
+                        <p>Berikut ini adalah langkah-langkah <strong>pemikiran algoritma atau desain algoritma</strong>:</p>Mendefinisikan permasalahan.Mengembangkan sebuah model untuk memecahkan masalah.Spesifikasi algoritma.Merancang sebuah algoritma.Memeriksa kebenaran algoritma.Menganalisis algoritma yang sudah dirancang.Mengimplementasikan algoritma ke dalam program.Melakukan pengujian program.Melakukan dokumentasi.<p></p>Pembahasan:<p><strong>Berpikir komputasi</strong> atau dalam bahasa inggris dikenal dengan <strong>Computational Thinking </strong>merupakan proses berpikir untuk memecahkan masalah dengan menggunakan karakteristik dan teknik-teknik ilmu komputer. </p><p><strong>Computational thinking</strong> kebanyakan digunakan untuk melakukan pengembangan software komputer, tapi tidak terbatas kepada hal itu saja. <strong>Berpikir komputasi</strong> juga bisa kita terapkan untuk memecahkan masalah di berbagai bidang lainnya seperti sains, matematika, ekonomi, bahkan di kehidupan sehari-hari. </p><p><strong>Desain algoritma</strong> adalah salah satu <strong>elemen berpikir komputasi</strong>. Biasanya, proses ini juga disebut <strong>pemikiran algoritmik</strong>. <strong>Desain algoritma</strong> adalah sebuah proses dimana kita harus menggunakan metode yang sistematis untuk menemukan solusi dari suatu masalah. </p><p>Tujuan dari <strong>desain algoritma</strong> adalah agar kita bisa tidak salah mengambil keputusan dan bisa menentukan langkah-langkah yang dapat mencapai solusi. </p><p><strong>Algoritma </strong>menghasilkan rancangan. Dalam pengembangan aplikasi, ini tentunya sangat memudahkan developer karena memiliki panduan dalam bekerja. </p><p>Dalam keseharian, langkah-langkah yang telah kita pikirkan bisa menjadi panduan agar kita lebih mudah memecahkan masalah. Ketika sudah memiliki rancangan algoritmanya, jika menemukan masalah yang sama, kita tidak perlu lagi memikirkan pemecahannya dari awal. </p><p>Ada 3 hal yang harus didefinisikan dalam <strong>proses desain algoritma</strong>:</p><strong>Masalah: </strong>Sesuatu yang menjadi hambatan dan perlu kita cari solusinya dengan algoritma.<strong>Masukan/Input: </strong>Data-data yang bisa membantu kita menemukan solusi dari permasalahan.<strong>Keluaran/Output: </strong>Solusi yang tepat untuk memecahkan masalah.<p></p>Pelajari lebih lanjut:Pilar berpikir komputasi https://brainly.co.id/tugas/27870097Karakteristik berpikir komputasi https://brainly.co.id/tugas/38693806<p></p>Detail Jawaban:<p>Kelas      : SMP</p><p>Mapel    : TI</p><p>Bab        : Berpikir Komputasi</p><p>Kode      : -</p><p>#AyoBelajar</p><br />
+                                            <h2 class="ez-toc-section" id="algoritma-proses-mendapatkan-pekerjaan">
+                            24. Algoritma proses mendapatkan pekerjaan</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Contoh algoritma dengan bahasa sederhana tentang proses mendapatkan pekerjaan adalah sebagai berikut.</p>MulaiPelamar mencari lowongan pekerjaanPelamar menemukan lowongan pekerjaanPelamar mengirimkan lamaran Pelamar mendapat undangan tesPelamar mengikuti tes tertulisJika berhasil, pelamar mengikuti tes wawancaraJika berhasil, pelamar mengikuti tes bersama rekan bisnis tempat usahJIka diterima, pelamar akan dihubungi.Selesai<p></p><p><strong>Penjelasan:</strong></p><p>Algoritma adalah langkah-langkah melakukan suatu tindakan yang disusun secara logis dan kronologis. Algoritma dapat disusun dalam berbagai cara. Beberapa di antaranya mencakup bahasa sederhana, pseudocode, flowchart, dan lain sebagainya.</p><p></p><p>Pelajari lebih lanjut tentang materi algoritma pada https://brainly.co.id/tugas/16929479</p><p></p><p>#BelajarBersamaBrainly</p><br />
+                                            <h2 class="ez-toc-section" id="buatlah-algoritma-untuk-proses-pelaksanaan-vaksinasi-bersama%e2%80%8b">
+                            25. buatlah algoritma untuk proses pelaksanaan vaksinasi bersama​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Algoritma VaksinasiBersama</p><p></p><p>1. Mulai</p><p>2. Daftarkan lokasi vaksinasi</p><p>3. Tetapkan tanggal dan waktu pelaksanaan</p><p>4. Siapkan infrastruktur:</p><p>    a. Tenda</p><p>    b. Meja dan kursi</p><p>    c. Perlengkapan vaksin (vaksin, jarum suntik, alkohol, kapas, dsb.)</p><p>    d. Tenaga medis dan relawan</p><p>    e. Sistem registrasi dan pencatatan</p><p>5. Publikasikan informasi tentang vaksinasi bersama ke masyarakat</p><p>6. Menerima pendaftaran peserta:</p><p>    a. Peserta mendaftarkan diri secara online atau offline</p><p>    b. Validasi data peserta</p><p>    c. Tentukan jadwal vaksinasi bagi setiap peserta</p><p>7. Pada hari H:</p><p>    a. Buka lokasi vaksinasi</p><p>    b. Siapkan semua perlengkapan</p><p>    c. Sambut peserta yang datang sesuai jadwal yang telah ditentukan</p><p>    d. Lakukan pengecekan suhu tubuh dan screening awal</p><p>    e. Peserta mengisi formulir konsultasi</p><p>    f. Tenaga medis melakukan konsultasi dengan peserta</p><p>    g. Jika peserta memenuhi kriteria, lanjutkan ke proses vaksinasi</p><p>    h. Tenaga medis memberikan vaksin</p><p>    i. Peserta diobservasi selama periode tertentu untuk memastikan tidak ada reaksi alergi atau efek samping</p><p>    j. Catat data vaksinasi pada sistem pencatatan</p><p>    k. Berikan kartu vaksinasi kepada peserta</p><p>    l. Ucapkan terima kasih dan pesan untuk datang kembali (jika diperlukan dosis kedua)</p><p>8. Lakukan pencatatan dan pelaporan data vaksinasi ke instansi terkait</p><p>9. Monitor efek samping jangka panjang dan komunikasikan dengan peserta jika diperlukan</p><p>10. Akhiri</p><br />
+                                            <h2 class="ez-toc-section" id="algoritma-penjadwalan-yang-mendahulukan-proses-yang-memiliki-prioritas-tertinggi-adalah">
+                            26. algoritma penjadwalan yang mendahulukan proses yang memiliki prioritas tertinggi adalah</h2><br />
+                        krian adalah jawaban yang tepat<br />
+                                            <h2 class="ez-toc-section" id="apakah-proses-mencuci-pakaian-termasuk-algoritma%e2%80%8b">
+                            27. apakah "proses mencuci pakaian" termasuk algoritma?​</h2><br />
+                        Tidak. Kan mencuci pakaian itu hal yang kita biasakan<br />
+                                            <h2 class="ez-toc-section" id="algoritma-dari-proses-memasak-air-%e2%80%8b">
+                            28. Algoritma dari proses Memasak air ​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Langkah – langkah mendidihkan air di dispenser</p><p></p><p>1) Mulai.</p><p></p><p>2) Masukkan jek dispenser ke dalam stop-contact.</p><p></p><p>3) Tekan tombol on pada dispenser.</p><p></p><p>4) Jika lampu pada dispenser menyala merah maka air belum mendidih.</p><p></p><p>5) Jika lampu pada dispenser menyala hijau maka air sudah mendidih.</p><p></p><p>6) Air matang / mendidih.</p><p></p><p>7) Selesai.</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="1-salah-satu-hal-yang-perlu-di-pertimbangkan-dalam-membuatalgoritma-adalah-efisiensi-maksuddari-efisiensi-adalah-a-algoritma-memberikan-hasildalam-waktu-yang-cepat-dantidak-menghabiskan-banyakme">
+                            29. 1.Salah satu hal yang perlu di-pertimbangkan dalam membuatalgoritma adalah efisiensi. Maksuddari efisiensi adalah ....A. Algoritma memberikan hasildalam waktu yang cepat dantidak menghabiskan banyakmemori.B. Algoritma memberikan hasilyang sedekat mungkin dengannilai yang sebenarnya.C. Algoritma dibutuhkan secaramutlak untuk menyelesaikanmasalah.D. Tidak mengulang-ulang proses 3.dalam algoritma.E. Tidak ditentukan jumlah prosesalgoritmaAnalisis: ....​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>A. Algoritma memberikan hasil</p><p>dalam waktu yang cepat dan</p><p>tidak menghabiskan banyak</p><p>memori.</p><br />
+                                            <h2 class="ez-toc-section" id="apa-yang-terjadi-jika-proses-mencuci-urutannya-terbalik-algoritma%e2%80%8b">
+                            30. Apa yang terjadi jika proses mencuci urutannya terbalik algoritma​</h2><br />
+                        <p><strong>Mulai &gt; siapkan sabun, sponge, air bersih &gt; ambil piring, bersihkan sengan sabun, bilas , angkat piring &gt; piring bersih &gt; selesai</strong></p><br />
+                                            <h2 class="ez-toc-section" id="diagram-yang-menggambarkan-proses-dalam-algoritma-disebut">
+                            31. diagram yang menggambarkan proses dalam algoritma disebut ...</h2><br />
+                        flowchart.............. <br />
+                                            <h2 class="ez-toc-section" id="algoritma-yang-prosesnya-sesuai-urutan-waktu-di-mana-setiap-proses-hanya-sekali-di-kerjakan-di-katakan-memiliki-struktur">
+                            32. Algoritma yang prosesnya sesuai urutan waktu di mana setiap proses hanya sekali di kerjakan di katakan memiliki struktur?</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Sequence</p><p><strong>Penjelasan :</strong></p><br />
+                                            <h2 class="ez-toc-section" id="secara-umum-proses-algoritma-dikelompokkan-menjadi-tiga-jenis-proses-algoritma-dimana-pelaksanaan-instruksinya-berdasarkan-kondisi-yang-terjadi-jika-kondisinya-terpenuhi-instruksi-akan-dijalankan">
+                            33. Secara umum proses algoritma dikelompokkan menjadi tiga jenis. Proses algoritma dimana pelaksanaan instruksinya berdasarkan kondisi yang terjadi. Jika kondisinya terpenuhi, instruksi akan dijalankan. Jika tidak terpenuhi maka akan melaksanakan instruksi yang lainnya. Proses tersebut termasuk proses …</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>roses tersebut termasuk dalam proses pengambilan keputusan atau pengambilan cabang (branching) dalam algoritma.</p><p></p><p>Dalam pemrograman, proses pengambilan keputusan atau pengambilan cabang terjadi ketika program harus memilih antara dua atau lebih instruksi berdasarkan kondisi yang terjadi. Jika kondisi yang ditentukan terpenuhi, maka satu set instruksi akan dieksekusi. Jika kondisi tidak terpenuhi, maka program akan melanjutkan dengan mengeksekusi instruksi lain atau melakukan tindakan alternatif.</p><p></p><p>Salah satu bentuk pengambilan keputusan yang umum adalah menggunakan struktur pengkondisian "if-else" atau "if-else if-else". Dalam struktur ini, kondisi dievaluasi, dan jika kondisi tersebut benar, maka blok instruksi yang terkait akan dieksekusi. Jika kondisi tidak terpenuhi, maka program akan melanjutkan ke kondisi lain atau ke blok instruksi lain yang sesuai.</p><br />
+                                            <h2 class="ez-toc-section" id="variable-yang-digunakan-dalam-proses-algoritma-dituliskan-pada-bagian">
+                            34. Variable yang digunakan dalam proses algoritma dituliskan pada bagian...</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>huruf besar</p><p><strong>Penjelasan:</strong></p><p>karena variable yang di gunakan proses algoritma di tulis di bagian tengah</p><br />
+                                            <h2 class="ez-toc-section" id="tuliskan-keluaran-dari-algoritma-diatasjelaskan-dari-mana-prosesnya">
+                            35. Tuliskan keluaran dari algoritma diatas?jelaskan dari mana prosesnya!</h2><br />
+                        <p><strong>Jawaban:</strong></p>jika ada pertanyaan yg susah lebih baik kirim kan sja saya pesan dan jgn lupa ikuti sya, TERIMAKASIH<br />
+                                            <h2 class="ez-toc-section" id="sebutkan-klasifikasi-dri-proses-algoritma">
+                            36. Sebutkan klasifikasi dri proses algoritma</h2><br />
+                        <p><strong>Jawaban:</strong></p><p></p>InputProsesOutput<p></p><p>Hope this helps you</p><br />
+                                            <h2 class="ez-toc-section" id="salah-satu-yang-perlu-dipertimbangkan-dalam-membuat-algoritma-adalah-efisiensi-maksud-dari-efisiensi-adalah-a-algoritma-memberikan-hasil-dalam-waktu-yang-mungkin-dan-tidak-menghabiskan-banyak-memor">
+                            37. salah satu yang perlu dipertimbangkan dalam membuat algoritma adalah efisiensi.Maksud dari efisiensi adalah...a. algoritma memberikan hasil dalam waktu yang mungkin dan tidak menghabiskan banyak memorib. algoritma memberikan hasil yang sedekat mungkin dalam nilai yang sebenarnyac. algoritma dibutuhkan secara mulak untuk menyelesaikan masalahd. tidak mengulang ulang proses dalam algoritmae. tidak ditentukan jumlah proses algoritma.analisis:.....​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>a. algoritma memberikan hasil dalam waktu yang cepat dan tidak menghabiskan banyak memori.</p><p><strong>Jawaban:</strong></p><p>A. Algoritma memberikan hasil dalam waktu yang mungkin dan tidak menghabiskan banyak memori.</p><p></p><p><strong>Penjelasan:</strong></p><p>karena Efisiensi dibutuhkan untuk penyusunan algoritma dikarenakan efisiensi merupakan suatu ukuran keberhasilan yang dinilai dari segi besarnya sumber/biaya untuk mencapai hasil dari kegiatan yang dijalankan. Efisiensi algoritma dapat ditinjau dari 2 hal yaitu efisiensi waktu dan memori.</p><p></p><p>semoga bermanfaat:)</p><p></p><p>dijadikan sebagai jawaban terbaik yaaa....</p><br />
+                                            <h2 class="ez-toc-section" id="tuliskan-kategori-proses-algoritma%e2%80%8b">
+                            38. tuliskan kategori proses algoritma​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>a. Sequence process. Proses algoritma yang dikerjakan secara berurutan.</p><p>b. Selection process. Proses algoritma yang melaksanakan penyeleksian langkah.</p><p>c. Iteration Process. Proses algoritma yang mengulangi satu langkah atau beberapa langkah.</p><p></p><p>semoga membantu:)</p><p></p><p><strong>Jawaban:</strong></p><p>a. Sequence process. Proses algoritma yang dikerjakan secara berurutan.</p><p>b. Selection process. Proses algoritma yang melaksanakan penyeleksian langkah.</p><p>c. Iteration Process. Proses algoritma yang mengulangi satu langkah atau beberapa langkah.</p><br />
+                                            <h2 class="ez-toc-section" id="proses-dari-masalah-hingga-terbentuk-suatu-algoritma-disebut-tahap">
+                            39. Proses dari masalah hingga terbentuk suatu algoritma disebut tahap ?</h2><br />
+                        Tahap penyelesaiaan masalah<br /><br />
+                                            <h2 class="ez-toc-section" id="bentuk-algoritma-sederhana-dari-proses-pengiriman-surat">
+                            40. bentuk algoritma sederhana dari proses pengiriman surat?</h2><br />
+                        Siapkan surat<br />Apakah sudah ditulis isinya?<br />Jika belum isi dahulu<br />Ambil amplop, lalu masukkan suratnha<br />Apakah amplopnya sudah di tulis alamat?<br />Jika sudah, tempelkan prangko.<br />Apakah prangkonya ada?<br />Jika belum? Beli lah di kantor pos<br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/uqVJc9lLknA?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ti</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/contoh-soal-psikotes-gambar-dan-jawabannya.html">Contoh Soal Psikotes Gambar Dan Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/sebutkan-nama-pelabuhan-di-tiap-tiap-provinsi-di-indonesia.html">Sebutkan Nama Pelabuhan Di Tiap Tiap Provinsi Di Indonesia</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/soal-tes-tertulis-penyuluh-agama-islam-non-pns.html">Soal Tes Tertulis Penyuluh Agama Islam Non Pns</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/hubungan-antar-makhluk-hidup-yang-saling-menguntungkan-disebut-simbiosis.html">Hubungan Antar Makhluk Hidup Yang Saling Menguntungkan Disebut Simbiosis</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/psikotes-di-sma.html">Psikotes Di Sma</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/banyaknya-megabytes-yang-di-transfer-setiap-detiknya-adalah-pengertian-dari.html">Banyaknya Megabytes Yang Di Transfer Setiap Detiknya Adalah Pengertian Dari</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/soal-uasbn-agama-katolik-sd-2017.html">Soal Uasbn Agama Katolik Sd 2017</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/sebutkan-contoh-pemanfaatan.html">Sebutkan Contoh Pemanfaatan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/download-contoh-soal-agama-hindu-kelas-3-sd.html">Download Contoh Soal Agama Hindu Kelas 3 Sd</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/fungsi-peran.html">Fungsi Peran</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/tes-psikotes-poltekkes-jakarta-1.html">Tes Psikotes Poltekkes Jakarta 1</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/jelaskan-pengertian-dari-qada-dan-qadar.html">Jelaskan Pengertian Dari Qada Dan Qadar</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/pengertian-dari-ungkapan-dan-contohnya.html">Pengertian Dari Ungkapan Dan Contohnya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/psikotes-lp3i.html">Psikotes Lp3i</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/soal-psikotes-poltekim.html">Soal Psikotes Poltekim</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/gambar-tes-psikotes-pohon.html">Gambar Tes Psikotes Pohon</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/interaksi-antara-dua-benda-tersebut-adalah.html">Interaksi Antara Dua Benda Tersebut Adalah</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/contoh-tes-psikotes-di-rumah-sakit.html">Contoh Tes Psikotes Di Rumah Sakit</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/soal-psikotes-setingkat-slta.html">Soal Psikotes Setingkat Slta</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://geniuspendidikan.github.io/soal-soal-agama-kristen-kelas-7-awal-semester.html">Soal Soal Agama Kristen Kelas 7 Awal Semester</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://geniuspendidikan.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://geniuspendidikan.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://geniuspendidikan.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://geniuspendidikan.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://geniuspendidikan.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
